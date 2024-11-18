@@ -1,0 +1,270 @@
+﻿
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+body 
+{
+   
+    font-family: 'Lato', sans-serif;
+
+    
+   
+}
+
+#Head
+{
+    text-align:center;
+    color:blue;
+    
+}
+#asp
+{
+   
+    font-size:22px;
+    text-align:center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  
+  
+    padding: 20px;
+    margin:10px 500px 10px 500px ;
+    /*opacity:0.8;*/
+    box-shadow: 10px 10px 5px black;
+}
+
+.SubmitBtn
+{
+      background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        transition: background-color 0.2s ease;
+        cursor: pointer;
+        width: 200px;
+        font-size:large;
+        
+    
+}
+.SubmitBtn:hover
+{
+     background-color: #3e8e41;
+}
+.ForgetBtn
+{
+    background-color: #ff4d4d;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        width: 200px;
+       
+}
+.ForgetBtn:hover
+{
+    background-color: #ff1a1a;
+        
+}
+#FogetPass
+{
+    
+    font-size:22px;
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  
+  
+    padding-left: 15px;
+    margin:50px 400px 10px 400px ;
+    /*opacity:0.8;*/
+    box-shadow: 10px 10px 5px black;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$ NAVBAR STYLING  START $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+   	nav {
+			/*background-color: #146C94;#002154;*/
+			/*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+			background-color:#0c005a;
+			color: #eaeaea;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+			border-radius:10px;
+			height:50px;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+			font-size:larger;
+			color:Lime;
+			transition:  0.3s;
+		}
+
+		.logo {
+			font-size: 24px;
+			font-weight: bold;
+            height: 39px;
+            color:Lime;
+}
+/*$$$$$$$$$$$$$$$$$$$$$ NAVBAR STYLING  END $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.container {
+      max-width: 650px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+.AdminBtns
+{   
+    
+   background-color:#f6e4ad;
+        color:#240747;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.2s ease;
+        cursor: pointer; 
+        box-shadow: 2px 2px 8px  rgba(0, 0, 0, 0.8);
+}
+.AdminBtns:hover
+{   
+     background-color: #240747;
+     color:#f6e4ad;
+     box-shadow: 2px 2px 12px  rgba(43, 237, 65, 1);
+     
+
+}
+#adminControls
+{   
+           text-align:center;
+           padding-top:50px;
+           
+           
+}
+.style1
+{
+      width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:large;
+  font-family: Arial;
+}
+.style1:focus
+{
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 1);
+    border:none;
+}
+    
+#viewPannel
+{
+    justify:center;
+    margin:0 320px;
+    width: 640px;
+}
+ .footer 
+ {
+    
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height:45px;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 0;
+      padding-top:10px;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .MarksUp
+    {
+      
+      max-width:500px;
+      margin:20px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.textBox
+{
+    display:flex;
+    width:250px;
+    height:25px;
+    margin-left:50px;
+ }
+.label
+{
+    margin-left:50px;
+}
+.CollegeLogo
+{
+   opacity:0.8;
+}
+.NoticeBtn{
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  
+}
+.NoticeBtn:hover{
+  background-color: #cfd1cf;
+  cursor: pointer;
+}
+.UpNoBox{
+  width: 40%;
+  height: 300px;
+  
+  background-color: #f3f3f3;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+ 
+}
+
+.NoticeDiv{
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-boxes{
+  border: none;
+  border-radius: 3px;
+  height: 20px;
+  background-color: #b6b3b3;
+}
+.DeletBtn:hover
+{
+    background-color: rgba(220, 13, 13, 0.625);
+    color: #fff;
+}

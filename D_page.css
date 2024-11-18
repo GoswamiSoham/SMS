@@ -1,0 +1,307 @@
+﻿body 
+{
+    margin:0px;
+    padding:0px;
+    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    
+}
+.header
+{
+
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.784),rgba(1, 71, 2, 0.219)),url(images/clg.png);
+    background-position:center;
+    background-size: cover;
+    position:relative;
+}
+nav{
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  margin-top: 20px;
+  margin-left: 25px;
+  width: 135px;
+}
+.nav-links {
+  flex:1;
+  text-align: right;
+  margin-right: 10px;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 8px;
+  position: relative;
+
+}
+.nav-links ul li a{
+  color:#e2e8ff;
+  text-decoration: none;
+  font-size: 20px;
+  
+  
+}
+.nav-links ul li a:hover{
+  
+  transition: 0.5s;
+  color:#fff;
+  font-weight: bold;
+}
+.nav-links ul li ::after{
+  content:'';
+  width:0%;
+  height: 3px;
+  background:#23c00b;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li a:hover::after{
+  width: 100%;
+  
+}
+.text-box{
+  width: 90%;
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 70px;
+  font-weight: 700;
+  /* background: -webkit-linear-gradient(#ffffff, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.text-box h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .08em solid rgb(132, 210, 48); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .08em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(132, 215, 44); }
+}
+.text-box h2{
+  font-size: 50px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#ffffffd9, #33ff00e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+  background: #ffffffa1;
+  padding: 15px 27px;
+  border:1px solid #fff;
+  border-radius: 10px;
+  color:#000000;
+}
+.hero-btn{
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  color:#000000;
+  border:2px solid #fff;
+  padding:12px 34px;
+  font-size: 17px;
+  background: #daf6d8ac;
+  position: relative;
+  cursor: pointer;
+  border-radius:50px;
+ 
+}
+.hero-btn:hover{
+  color:#ffffff;
+  border:1px solid #ffffff;
+  background: #096d04;
+  transition: 0.8s;
+}
+#Contact h1{
+  text-align: center;
+  margin:30px auto;
+  font-size: 50px;
+}
+#Contact ul li {
+  list-style: none;
+
+}
+#Contact ul li a{
+  text-decoration: none;
+  color: #000;
+
+}
+.ifr{
+  display: block;
+  position: relative;
+  text-align: center;
+
+}
+.phone{
+  font-size: 20px;
+  text-align: center;
+}
+#ph-icon{
+ 
+  margin-right: 15px;
+  font-size: 40px;
+  color: rgb(13, 180, 13);
+}
+#mail-icon{
+  margin-right: 15px;
+  font-size: 40px;
+  color: rgb(150, 3, 37);
+}
+.map{
+  font-size: 20px;
+  text-align: center;
+}
+#map-icon{
+  margin-right: 15px;
+  font-size: 40px;
+  text-align: center;
+  color:red;
+}
+html{
+  scroll-behavior:smooth;
+}
+.about-us h1 { 
+  text-align: center;
+  margin:50px auto;
+  font-size: 50px;
+}
+.about-us p{
+  display: flex;
+  width: 1050px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin:15px auto;
+  margin-bottom: 80px;
+  font-size: 20px;
+  background: #e7e7e7;
+  padding: 15px 27px;
+  /* border:1px solid #0e0a99; */
+  border-radius: 10px;
+  color:#000000;
+  box-shadow:5px 5px 8px rgb(0, 0, 0);
+}
+.developers h1 {
+  text-align: center;
+  margin:50px auto;
+  font-size: 50px;
+}
+.developers ul{
+  text-align: center;
+}
+.developers ul li {
+  display: inline-block;
+  padding: 10px 45px;
+  list-style: none;
+}
+.developers {
+  
+  margin-bottom: 80px;
+  
+}
+.developers ul li p img {
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  object-fit:cover;
+  box-shadow: 5px 5px 8px #2c0436;
+
+}
+.developers ul li p{
+  color:#414040
+}
+#name {
+  font-size: 23px;
+  color:#2c0436
+}
+.developers ul li p{
+  font-weight: bold;
+}
+.developers .Social {
+  margin-top: 2px;
+  font-size: 40px;
+  display: inline-block;
+  padding: 1px 10px;
+  list-style: none;
+}
+#link {
+  color:#0A66C2;
+}
+#face {
+  color:#0165E1;
+}
+#insta {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* color:#FCAF45; */
+}
+#git{
+  color:#272626;
+}
+
+
+
+
+
+
+
+ .footer 
+ {
+    
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height:55px;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      
+      text-align: center;
+    }
+
+    .footer p {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      margin: 0;
+      padding:20px;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
