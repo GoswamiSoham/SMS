@@ -1,1 +1,1 @@
-# SMS
+# Student Managment Portal
